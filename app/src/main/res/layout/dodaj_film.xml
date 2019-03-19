@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/dodaj_film_naziv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ime_filma"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"/>
+
+    <EditText
+        android:id="@+id/dodaj_film_zanr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/zanr_filma"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"/>
+
+    <EditText
+        android:id="@+id/dodaj_film_godina_izlaska"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="@string/datum_izlaska_filma_dd_mm_yyyy"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"/>
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/dodaj_film_button_confirm"
+            android:textSize="20sp"
+            android:text="@string/potvrdi"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/dodaj_film_button_cancel"
+            android:textSize="20sp"
+            android:text="@string/odustani"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

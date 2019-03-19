@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorDark"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/izmeni_glumca_naziv"
+        android:hint="@string/nov_naziv_glumca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED" />
+
+    <EditText
+        android:id="@+id/izmeni_glumca_biografija"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nova_biografija_glumca"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"/>
+
+    <EditText
+        android:id="@+id/izmeni_glumca_nova_ocena"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/nova_ocena_od_0_do_10"
+        android:inputType="number|numberDecimal"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"/>
+
+    <EditText
+        android:id="@+id/izmeni_glumca_nov_datumRodj"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="date"
+        android:hint="Nov Datum Rodjenja: dd-MM-yyyy"
+        android:textColorHint="@color/colorRED"
+        android:textColor="@color/colorRED"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/izmeni_glumca_button_confirm"
+            android:text="@string/potvrdi"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:id="@+id/izmeni_glumca_button_cancel"
+            android:text="@string/odustani"
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:textSize="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Glumci30Termin.V2</string>
+    <string name="dodaj_glumca">Dodaj Glumca</string>
+    <string name="ime_i_prezime_glumca">Ime i Prezime Glumca</string>
+    <string name="biografija_glumca">Biografija Glumca</string>
+    <string name="ocena_glumca_od_0_do_10">Ocena Glumca od 0 do 10</string>
+    <string name="potvrdi">Potvrdi</string>
+    <string name="odustani">Odustani</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <string name="dialog_about_title">O Aplikaciji</string>
+    <string name="dialog_about_message">Stevan Mihalic</string>
+    <string name="dialog_about_yes">Confirm</string>
+    <string name="dialog_about_no">Cancel</string>
+    <string name="update">update</string>
+    <string name="ime_filma">Ime Filma</string>
+    <string name="zanr_filma">Zanr Filma</string>
+    <string name="datum_izlaska_filma_dd_mm_yyyy">Datum Izlaska Filma: dd-MM-yyyy</string>
+    <string name="nov_naziv_glumca">Nov Naziv Glumca</string>
+    <string name="nova_biografija_glumca">Nova Biografija Glumca</string>
+    <string name="nova_ocena_od_0_do_10">Nova Ocena od 0 do 10</string>
+    <string name="nije_dovoljno_dobro_p">ZATVORI DIJALOG</string>
+    <string name="aplikacija_o_glumcima_u_ovoj_aplikaciji_mozete_videti_listu_glumaca_njihove_podatke_i_filmove_u_kojima_je_glumio_milose_samo_jedan_podsetnik_naravno_ako_je_aplikacija_dobra_za_plus_sto_ste_rekli_da_mozete_dati">Aplikacija o Glumcima. U ovoj Aplikaciji mozete videti listu Glumaca, njihove podatke i filmove u kojima je glumio. Milose, samo jedan podsetnik - Naravno, ako je aplikacija dobra za plus sto ste rekli da mozete dati (:</string>
+    <string name="ovaj_dialog_ce_se_prikazati_samo_prvi_i_jedini_put_kada_je_aplikacija_instalirana_i_pokrenuta_osim_u_slucaju_reinstalacije">Ovaj Dialog ce se prikazati samo PRVI i JEDINI put kada je aplikacija instalirana i pokrenuta! Osim u slucaju reinstalacije.</string>
+    <string name="lista_filmova_glumca">Lista Filmova Glumca:</string>
+</resources>
